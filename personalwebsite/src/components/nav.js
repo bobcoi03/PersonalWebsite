@@ -13,6 +13,11 @@ const NavBar = () => {
                     Blog
                 </a>
             </div>
+            <div>
+                <a href="/contacts" className="navText">
+                    Contacts
+                </a>
+            </div>
         </div>
     )
 }
