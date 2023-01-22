@@ -36,7 +36,10 @@ html, body {
   flex: 1;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+
+  margin: auto;
+
+  max-width: 800px;
 
   text-overflow: ellipsis;
 
@@ -59,11 +62,11 @@ html, body {
 }
 
 .profilePicture {
-  filter: brightness(1.5);
+  filter: brightness(1.75);
 }
 
 .profilePicture:hover {
-  filter: brightness(1.75);
+  filter: brightness(2);
 }
 
 .audioIcon {
