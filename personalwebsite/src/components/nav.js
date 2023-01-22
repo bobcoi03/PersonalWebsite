@@ -1,22 +1,19 @@
 import { useState } from "react";
+import Link from 'next/link'
+
 
 const NavBar = () => {
     return (
         <div className="nav">
             <div>
-                <a href="/" className="navText">
+                <Link href="/" className="navText">
                     Home
-                </a>
+                </Link>
             </div>
             <div>
-                <a href="/blog" className="navText">
+                <Link href="/blog" className="navText">
                     Blog
-                </a>
-            </div>
-            <div>
-                <a href="/contacts" className="navText">
-                    Contacts
-                </a>
+                </Link>
             </div>
         </div>
     )

@@ -1,3 +1,16 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
 .nav {
   justify-content: center;
   display: flex;
@@ -20,13 +33,19 @@
 
 .profile {
   display: flex;
+  flex: 1;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+
+  text-overflow: ellipsis;
 
   margin-top: 5vh;
 
+  gap: 30px;
+
   border-style: solid;
-  border-color: rgb(105, 105, 105);
+  border-color: rgb(0, 0, 0);
   border-width: 1px;
 }
 
@@ -56,9 +75,10 @@
   width: 120px;
   background-color: rgb(130, 130, 130);
   color: #fff;
+  font-size: 13px;
   text-align: center;
   font-family: Helvetica,Arial,sans-serif;
-  padding: 3px 0;
+  padding: 2px;
   border-radius: 5px;
 
 /* Position the tooltip */
@@ -74,6 +94,11 @@
   cursor: pointer;
 }
 
-body {
-  background-color: black;
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 30px;
+  text-align: center;
 }
