@@ -73,8 +73,8 @@ export default function Home() {
             <p className="profileText">
               <text>
               I'm currently working on&nbsp;
-              <a href="/blog">CatchUp</a>. 
-              An app that helps you keep up
+              <Link href="/blogs/catchUp">CatchUp</Link>, 
+              an app that helps you keep up
               with your close friends on a daily.
               </text>
             </p>  
