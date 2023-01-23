@@ -54,7 +54,19 @@ export default function BlogPage() {
                 <text className="blogDate">
                   Sunday 11, December 2022
                 </text>
-              </div> 
+              </div>
+              <div className='blog'>
+                <div style={{marginTop: 30}}/>
+                <Link href="blogs/econ-essay" style={{ textDecoration: 'none', padding: 0 }}>
+                  <text className="blogTitle">
+                    Leaving the market to operate freely is 
+                    the best way to move us to a low carbon, low pollution future.
+                  </text>
+                </Link>
+                <text className="blogDate">
+                  Thursday 25, February 2021
+                </text>
+              </div>
             </div>           
           </div> 
         </div>
