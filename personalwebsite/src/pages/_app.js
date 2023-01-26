@@ -14,6 +14,14 @@ export default function App({ Component, pageProps }) {
           gtag('config', 'G-Z32KHW8D9X');
         `}
       </Script>
+      <Script async src="https://cdn.panelbear.com/analytics.js?site=C8DnnwakGuz"></Script>
+      <Script>
+        {`
+          window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
+          panelbear('config', { site: 'C8DnnwakGuz' });
+        `}
+      </Script>
+
       <Component {...pageProps} />      
     </>
   )
