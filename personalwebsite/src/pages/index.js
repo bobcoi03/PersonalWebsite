@@ -70,6 +70,15 @@ export default function Home() {
             </p>  
           </div>
           <div>
+            <p className='profileText'>
+                <text>
+                I'm currently working on&nbsp;
+                  <Link href="blogs/whatchadoinn">WhatChaDoinn</Link>,
+                  a spontaneous photo sharing and messaging app.
+                </text>
+            </p> 
+          </div> 
+          <div>
             <p className="profileText">
               <text>
               I'm currently working on&nbsp;
@@ -78,7 +87,7 @@ export default function Home() {
               with your close friends on a daily.
               </text>
             </p>  
-          </div>       
+          </div>     
         </div>
       </div>
       <div className="footer">
