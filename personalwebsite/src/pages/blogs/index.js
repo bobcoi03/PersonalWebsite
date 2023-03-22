@@ -24,6 +24,17 @@ export default function BlogPage() {
             <div className='container'>
               <div className='blog'>
                   <div style={{marginTop: 30}}/>
+                    <Link href="blogs/whatchadoinn" style={{ textDecoration: 'none', padding: 0 }}>
+                      <text className="blogTitle">
+                        WhatChaDoinn??
+                      </text>
+                    </Link>
+                    <text className="blogDate">
+                      Sunday 26, March 2023
+                    </text>
+              </div>
+              <div className='blog'>
+                  <div style={{marginTop: 30}}/>
                     <Link href="blogs/catchUp" style={{ textDecoration: 'none', padding: 0 }}>
                       <text className="blogTitle">
                         CatchUp. Converse with you friends on a daily.
@@ -32,7 +43,7 @@ export default function BlogPage() {
                     <text className="blogDate">
                       Sunday 22, January 2023
                     </text>
-                </div>
+              </div>
               <div className='blog'>
                 <div style={{marginTop: 30}}/>
                 <Link href="blogs/joyy" style={{ textDecoration: 'none', padding: 0 }}>
