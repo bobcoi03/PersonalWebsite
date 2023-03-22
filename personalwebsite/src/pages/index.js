@@ -83,7 +83,7 @@ export default function Home() {
               <text>
               I'm also working on&nbsp;
               <Link href="/blogs/catchUp">CatchUp</Link>
-              as a side project, an app that helps you keep up
+              as a side project, which is an app that helps you keep up
               with your close friends on a daily.
               </text>
             </p>  
