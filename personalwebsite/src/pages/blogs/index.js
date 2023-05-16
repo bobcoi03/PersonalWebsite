@@ -25,12 +25,12 @@ export default function BlogPage() {
               <div className='blog'>
                   <div style={{marginTop: 30}}/>
                     <Link href="blogs/whatchadoinn" style={{ textDecoration: 'none', padding: 0 }}>
-                      <text className="blogTitle">
-                        WhatChaDoinn??
+                      <text className="blogTitle">                        
+                        Peng
                       </text>
                     </Link>
                     <text className="blogDate">
-                      Sunday 26, March 2023
+                      Saturday 1, April 2023
                     </text>
               </div>
               <div className='blog'>
