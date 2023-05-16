@@ -18,7 +18,7 @@ export default function WhatChaDoinn() {
             <div className='blogsWrapper'>
                 <div className='blog'>
                     <div style={{marginTop: 30}}/>
-                    <text className="blogTitle" style={{textAlign: 'center'}}>
+                    <text className="blogTitle" style={{textAlign: 'center', fontSize: 55}}>
                         Peng
                     </text>
                     <text className="blogDate">
